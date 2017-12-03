@@ -89,3 +89,51 @@ button{
     font-size: 1.5em;
     font-weight: bold;
 }
+
+
+
+
+
+
+.img-full-width {
+    width: 100%;
+    height: auto;
+}
+.caption {
+    position: relative;
+    margin-bottom: 2%;
+}
+.caption h3 {
+    margin: 0;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: rgba(41,82,123,.8);
+    font-size: 15px;
+}
+
+
+.caption-2 {
+    position: relative;
+    margin-bottom: 2%;
+}
+.caption-2 h3 {
+    margin: -1px 0 0 0;
+    color: #fff;
+    padding: 10px;
+    background: rgba(41,82,123,1);
+    font-size: 15px;
+}
+@media (min-width:500px) { 
+	.caption-2 h3 {
+	    margin:0;
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    background: rgba(41,82,123,.8);
+	}
+}
