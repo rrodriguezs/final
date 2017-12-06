@@ -17,8 +17,24 @@ ul li{
     padding: 60px;
     border-radius: 8px;
     
+    
 }
 
+
+a:hover{
+    font-size: 60px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#menu{
+    text-align: center;
+}
 
 a:hover{
     font-size: 50px;
