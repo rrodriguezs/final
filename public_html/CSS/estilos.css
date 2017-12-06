@@ -8,6 +8,10 @@ and open the template in the editor.
     Author     : 00140307
 */
 
+body{
+    font-size: verdana;
+}
+
 #menu
 ul li{
     list-style-type: none;
@@ -23,6 +27,7 @@ ul li{
 
 a:hover{
     font-size: 60px;
+    color: red;
     
 }
 
